@@ -74,7 +74,8 @@
 
 * Use a Content Delivery Network
   * Or use Rack::Cache if you do not want to pay for services
-  * On Heroku, it useless to use a CDN and Rack::Cache at the same time
+  * It is useless to use a CDN and Rack::Cache at the same time
+  * Rack::Cache will not speed up asset delivery if you use a CDN
 
 <!SLIDE full-page bullets incremental transition=fade>
 * Add an Expires Header
