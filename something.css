@@ -4,3 +4,7 @@
 .title-slide h1 {
   color: #333;
 }
+
+pre {
+  text-align: left !important;
+}
