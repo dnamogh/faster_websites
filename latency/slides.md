@@ -149,7 +149,7 @@
 
 <!SLIDE full-page bullets incremental transition=fade>
 * Configure ETags
-  * Rack::ETag (http://edgeguides.rubyonrails.org/rails_on_rack.html)
+  * Rack::ETag
 
 * Make Ajax Cacheable
 
