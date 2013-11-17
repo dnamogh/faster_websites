@@ -25,7 +25,7 @@
 # On going slowly
 ### "Do not be afraid of going slowly, be afraid only of standing still."
 
-<!SLIDE full-page transition=scrollUp>
+<!SLIDE full-page center  transition=scrollUp>
 ![Do not be afraid of going slowly](keep_moving.png)
 
 <!SLIDE full-page title-slide transition=scrollUp>
@@ -40,7 +40,7 @@
 <!SLIDE full-page title-slide transition=scrollUp>
 # Why do premature optimization?
 
-<!SLIDE full-page transition=scrollUp>
+<!SLIDE full-page center transition=fade>
 ![Mashable infographic](mashable-infographic-01.png)
 
 <!SLIDE full-page title-slide transition=scrollUp>

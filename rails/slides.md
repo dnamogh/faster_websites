@@ -42,7 +42,7 @@
 	$ rails s
 	$ open http://localhost:3000/photos
 
-<!SLIDE full-page transition=scrollUp>
+<!SLIDE full-page center  transition=scrollUp>
 ![Photo validation](photo_validation.png)
 
 !SLIDE full-page commandline incremental

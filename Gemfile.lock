@@ -3,7 +3,7 @@ GEM
   specs:
     blankslate (2.1.2.4)
     bluecloth (2.2.0)
-    gli (2.8.1)
+    gli (1.6.0)
     json (1.8.1)
     mini_portile (0.5.2)
     nokogiri (1.6.0)
@@ -30,4 +30,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  gli (= 1.6.0)
   showoff
