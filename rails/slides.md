@@ -12,7 +12,7 @@
 * Linux or Mac
   * http://www.blog.geekcampbaguio.com/2013-rails-install
 
-!SLIDE commandline incremental
+!SLIDE full-page commandline incremental
 	$ gem install rails
 	$ rails -v
 	$ Rails 4.0.1
@@ -38,14 +38,14 @@
 	  validates :description, presence: true
 	end
 
-!SLIDE commandline incremental
+!SLIDE full-page commandline incremental
 	$ rails s
 	$ open http://localhost:3000/photos
 
 <!SLIDE full-page transition=scrollUp>
 ![Photo validation](photo_validation.png)
 
-!SLIDE commandline incremental
+!SLIDE full-page commandline incremental
 	$ rails g migration add_picture_to_photo picture:string
 	$ rake db:migrate
 
@@ -79,7 +79,7 @@
   * Allows easy management of static assets
   * Assets are precompiled for deployment
 
-!SLIDE commandline incremental
+!SLIDE full-page commandline incremental
 	$ rake assets:precompile RAILS_ENV=production
 
 <!SLIDE full-page  bullets incremental transition=scrollUp>

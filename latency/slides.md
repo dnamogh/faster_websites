@@ -127,7 +127,7 @@
 <!SLIDE full-page bullets incremental transition=fade>
 * Reduce DNS Lookups
 
-!SLIDE commandline incremental
+!SLIDE full-page commandline incremental
 	$ dig kat.pe
 
 <!SLIDE full-page bullets incremental transition=fade>
