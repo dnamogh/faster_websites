@@ -49,7 +49,7 @@
 	$ rails g migration add_picture_to_photo picture:string
 	$ rake db:migrate
 
-<!SLIDE full-page title-slide transition=scrollUp>
+<!SLIDE full-page code transition=scrollUp>
 	@@@ ruby
 	# app/views/photos/_form.html.erb
 
@@ -59,13 +59,13 @@
 	  <%= f.file_field :picture %>
 	</div>
 
-<!SLIDE full-page title-slide transition=scrollUp>
+<!SLIDE full-page code title-slide transition=scrollUp>
 	@@@ ruby
 	# app/views/photos/show.html.erb
 
 	<%= image_tag(@photo.picture_url) %>
 
-<!SLIDE full-page transition=scrollUp>
+<!SLIDE full-page code transition=scrollUp>
 	@@@ ruby
 	# app/controllers/photos_controller.rb
 

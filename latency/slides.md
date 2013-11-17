@@ -97,7 +97,7 @@
 * Put JavaScripts at the Bottom
 * Make JavaScript and CSS External
 
-<!SLIDE full-page transition=scrollUp>
+<!SLIDE full-page code transition=scrollUp>
 	@@@ ruby
 	doctype 5
 	html
