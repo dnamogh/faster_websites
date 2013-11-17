@@ -1,8 +1,8 @@
-<!SLIDE title-slide>
+<!SLIDE full-page title-slide>
 
 # Creating Faster Websites Faster
 
-<!SLIDE bullets incremental transition=fade>
+<!SLIDE full-page bullets incremental transition=fade>
 
 # Hello. I am Kat Pe.
 
@@ -11,11 +11,11 @@
 * Rubyist who tries other cryptic languages out of need
 * Education: Majored in Financial Management WITHOUT ANY REGRET
 
-<!SLIDE title-slide>
+<!SLIDE full-page title-slide>
 
 # http://kat.pe
 
-<!SLIDE bullets>
+<!SLIDE full-page bullets>
 # Focus
 
 * Google Technologies

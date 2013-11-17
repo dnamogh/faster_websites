@@ -4,11 +4,11 @@
 <!SLIDE title-slide transition=scrollUp>
 # Install Ruby on Rails
 
-<!SLIDE  bullets incremental transition=scrollUp>
+<!SLIDE full-page bullets incremental transition=scrollUp>
 * Windows
  * http://railsinstaller.org
 
-<!SLIDE  bullets incremental transition=scrollUp>
+<!SLIDE full-page bullets incremental transition=scrollUp>
 * Linux or Mac
   * http://www.blog.geekcampbaguio.com/2013-rails-install
 
@@ -17,7 +17,7 @@
 	$ rails -v
 	$ Rails 4.0.1
 
-<!SLIDE  bullets incremental transition=scrollUp>
+<!SLIDE full-page bullets incremental transition=scrollUp>
 * Create a simple photo management app
   * Upload photos
   * Add a title and/or description
@@ -28,7 +28,7 @@
 	$ rails g scaffold photo title:string description:text
 	$ rake db:migrate
 
-<!SLIDE title-slide transition=scrollUp>
+<!SLIDE full-page title-slide transition=scrollUp>
 	@@@ ruby
 	# app/models/photo.rb
 
@@ -42,14 +42,14 @@
 	$ rails s
 	$ open http://localhost:3000/photos
 
-<!SLIDE transition=scrollUp>
+<!SLIDE full-page transition=scrollUp>
 ![Photo validation](photo_validation.png)
 
 !SLIDE commandline incremental
 	$ rails g migration add_picture_to_photo picture:string
 	$ rake db:migrate
 
-<!SLIDE title-slide transition=scrollUp>
+<!SLIDE full-page title-slide transition=scrollUp>
 	@@@ ruby
 	# app/views/photos/_form.html.erb
 
@@ -59,13 +59,13 @@
 	  <%= f.file_field :picture %>
 	</div>
 
-<!SLIDE title-slide transition=scrollUp>
+<!SLIDE full-page title-slide transition=scrollUp>
 	@@@ ruby
 	# app/views/photos/show.html.erb
 
 	<%= image_tag(@photo.picture_url) %>
 
-<!SLIDE transition=scrollUp>
+<!SLIDE full-page transition=scrollUp>
 	@@@ ruby
 	# app/controllers/photos_controller.rb
 
@@ -74,7 +74,7 @@
       permit(:title, :description, :picture)
 	  end
 
-<!SLIDE  bullets incremental transition=scrollUp>
+<!SLIDE full-page bullets incremental transition=scrollUp>
 *  The Asset Pipeline
   * Allows easy management of static assets
   * Assets are precompiled for deployment
@@ -82,18 +82,18 @@
 !SLIDE commandline incremental
 	$ rake assets:precompile RAILS_ENV=production
 
-<!SLIDE  bullets incremental transition=scrollUp>
+<!SLIDE full-page  bullets incremental transition=scrollUp>
 * Assets are minified or compressed
   * YUI compressor - http://yui.github.io/yuicompressor/
   * uglifier - https://github.com/lautis/uglifier
 
-<!SLIDE  bullets incremental transition=scrollUp>
+<!SLIDE full-page bullets incremental transition=scrollUp>
 * Performance Optimization for Ruby on Rails
   * Page Caching
   * Action Caching
   * Fragment Caching
 
-<!SLIDE  bullets incremental transition=scrollUp>
+<!SLIDE full-page bullets incremental transition=scrollUp>
 * Resources
   * Web Performance Best Practices
     * https://developers.google.com/speed/docs/best-practices/rules_intro
