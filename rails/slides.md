@@ -22,7 +22,7 @@
   * Upload photos
   * Add a title and/or description
 
-!SLIDE commandline incremental
+!SLIDE full-page commandline incremental
 	$ rails new app
 	$ cd app
 	$ rails g scaffold photo title:string description:text
