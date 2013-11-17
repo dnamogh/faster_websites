@@ -1,0 +1,14 @@
+{
+  "name": "Creating Faster Websites Faster",
+  "description": "A Presentation for Google Developers Group Cordillera DevFest November 2013",
+  "author": "Katherine Pe",
+  "templates" : {
+      "special" : "simple.tpl"
+  },
+  "pause_msg": "Paused !!!",
+  "sections": [
+    {"section":"intro"},
+    {"section":"latency"},
+    {"section":"rails"}
+  ]
+}
