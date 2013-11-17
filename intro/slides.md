@@ -26,7 +26,7 @@
 * Ruby on Rails
 
 
-!SLIDE center transition=scrollUp
+!SLIDE full-page center transition=scrollUp
 
 # Presumed knowledge of Web Technologies
 

@@ -1,4 +1,4 @@
-!SLIDE subsection
+!SLIDE full-page subsection
 
 # Fast vs Slow
 
@@ -64,7 +64,7 @@
 * CNN.com - 189 requests and loads in 3.29s
 
 
-!SLIDE subsection
+!SLIDE full-page subsection
 
 # 14 Rules for Better Web Performance
 
