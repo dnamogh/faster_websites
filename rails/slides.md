@@ -1,7 +1,7 @@
-!SLIDE subsection
+!SLIDE full-page subsection
 # Ruby on Rails Intro
 
-<!SLIDE title-slide transition=scrollUp>
+<!SLIDE  full-page title-slide transition=scrollUp>
 # Install Ruby on Rails
 
 <!SLIDE full-page bullets incremental transition=scrollUp>
