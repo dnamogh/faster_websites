@@ -4,7 +4,7 @@
 
 <!SLIDE full-page bullets incremental transition=fade>
 
-# Hello. I am Kat Pe.
+# Hello. I am Katherine Pe.
 
 * Software Developer
 * Been developing websites since 2003
