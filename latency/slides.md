@@ -47,11 +47,11 @@
 # What is fast enough?
 
 <!SLIDE full-page bullets incremental transition=fade>
-* <= 0.1s/ 100ms - fast
-* > 0.1s/ 100ms means - not snappy
-* > 1s - feels sluggish
-* > 10s - frustrating
-* <= 3s - sane and easy to achieve
+* less than 0.1s/ 100ms - fast
+* greater than 0.1s/ 100ms m - not snappy
+* greater than 1s - feels sluggish
+* greater than 10s - frustrating
+* less than 3s - sane and easy to achieve
 
 <!SLIDE full-page title-slide transition=scrollUp>
 # Measuring Latency
