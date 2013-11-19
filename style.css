@@ -1,0 +1,16 @@
+body, .slide {
+  background: url('images/squairy_light.png');
+  color: #333;
+}
+
+#preso, .slide {
+  border: 0 !important;
+}
+
+.subsection h1 {
+  background: #1d4d75;
+}
+
+pre {
+  text-align: left !important;
+}
