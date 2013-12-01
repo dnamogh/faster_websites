@@ -136,10 +136,11 @@
   * Use an Asset Manager
   * Node.js - Connect Assets
   * Ruby on Rails/ Sinatra - Sprockets or "Asset Pipeline"
+  * Use a JavaScript Compressor (uglifier)
 
 <!SLIDE full-page bullets incremental transition=fade>
 * Minify Stylesheets
-  * Use a CSS and JavaScript Compressor
+  * Use a CSS Compressor
   * YUI Compressor
   * CSS Condense (Node.js)
 
@@ -158,4 +159,4 @@
 <!SLIDE full-page bullets incremental transition=fade>
 * Google Chrome Developer Tool
 * Google PageSpeed Insights
-  * https://developers.google.com/speed/pagespeed/insights
+  * <a href="https://developers.google.com/speed/pagespeed/insights" target="_blank">https://developers.google.com/speed/pagespeed/insights</a>

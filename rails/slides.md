@@ -6,13 +6,14 @@
 
 <!SLIDE full-page bullets incremental transition=scrollUp>
 * Windows
- * http://railsinstaller.org
+ * <a href="http://railsinstaller.org" target="_blank">http://railsinstaller.org</a>
 
 <!SLIDE full-page bullets incremental transition=scrollUp>
 * Linux or Mac
-  * http://www.blog.geekcampbaguio.com/2013-rails-install
+  * <a href="http://www.blog.geekcampbaguio.com/2013-rails-install" target="_blank">http://www.blog.geekcampbaguio.com/2013-rails-install</a>
 
 !SLIDE full-page commandline incremental
+  // Make sure you have new Rails version installed
 	$ gem install rails
 	$ rails -v
 	$ Rails 4.0.1
@@ -84,8 +85,8 @@
 
 <!SLIDE full-page  bullets incremental transition=scrollUp>
 * Assets are minified or compressed
-  * YUI compressor - http://yui.github.io/yuicompressor/
-  * uglifier - https://github.com/lautis/uglifier
+  * <a href="http://yui.github.io/yuicompressor/" target="_blank">YUI compressor</a>
+  * <a href="https://github.com/lautis/uglifier" target="_blank">uglifier</a>
 
 <!SLIDE full-page bullets incremental transition=scrollUp>
 * Performance Optimization for Ruby on Rails
@@ -96,10 +97,10 @@
 <!SLIDE full-page bullets incremental transition=scrollUp>
 * Resources
   * Web Performance Best Practices
-    * https://developers.google.com/speed/docs/best-practices/rules_intro
+    * <a href="https://developers.google.com/speed/docs/best-practices/rules_intro" target="_blank">https://developers.google.com/speed/docs/best-practices/rules_intro</a>
   * 14 Rules for faster-loading websites
-    * http://stevesouders.com/hpws/rules.php
+    * <a href="http://stevesouders.com/hpws/rules.php" target="_blank">http://stevesouders.com/hpws/rules.php</a>
   * Ruby on Rails documentation
-    * http://guides.rubyonrails.org
+    * <a href="http://guides.rubyonrails.org" target="_blank">http://guides.rubyonrails.org</a>
   * Geekcamp Baguio Ruby on Rails Guide
-    * http://rubyonrails.geekcampbaguio.com
+    * <a href="http://rubyonrails.geekcampbaguio.com" target="_blank">http://rubyonrails.geekcampbaguio.com</a>
